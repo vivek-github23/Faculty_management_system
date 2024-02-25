@@ -1,0 +1,80 @@
+.salary-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .salary-container {
+    margin-bottom: 30px;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    color: blue;
+    margin-bottom: 15px;
+  }
+  
+  .total-salary, .salary-history {
+    margin-bottom: 30px;
+  }
+  
+  .salary-breakdown {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: darkgreen;
+    margin-bottom: 20px;
+  }
+  
+  .salary-breakdown p {
+    margin: 5px 0;
+  }
+  
+  .net-salary {
+    font-weight: bold;
+  }
+  
+  .history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #9BBEC8;
+  }
+  
+  .history-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history-item button:hover {
+    background-color: #427D9D;
+  }
+  
+  .salary-header {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #9BBEC8; 
+    padding-bottom: 10px;
+  }
+  
+  .salary-heading {
+    font-size: 28px;
+    color: #164863; 
+    margin-bottom: 5px;
+  }
+  
+  .salary-header p {
+    font-size: 16px;
+    color: #427D9D; 
+    margin: 5px 0;
+  }
